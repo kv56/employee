@@ -2,10 +2,6 @@ import java.sql.Statement;
 import java.sql.*; 
 
 public class femaleratio1{
-    class department{
-        int male=0;
-        int female=0;
-    };
     public static void main(String[] args) {
         String url="jdbc:mysql://localhost:3306/employees";
         String user="root";
