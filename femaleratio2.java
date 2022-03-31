@@ -16,7 +16,6 @@ public class femaleratio2{
             Connection con=DriverManager.getConnection(url, user, password);
             Statement st=con.createStatement();
             ResultSet rs=st.executeQuery("SELECT dept_no,gender FROM employees natural join dept_emp;");
-            rs.next();
             int arr[]={0,0};
             d.put("d001",arr);
             d.put("d002",arr);
